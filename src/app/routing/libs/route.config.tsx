@@ -4,6 +4,7 @@ import { RoutePath } from "./route.paths";
 
 const AuthPage = lazy(() => import("../../../pages/AuthPage"));
 const RegistrationPage = lazy(() => import("../../../pages/RegistrationPage"));
+const MainPage = lazy(() => import("../../../pages/MainPage"));
 
 export const publicRoutes: RouteObject[] = [
   {
@@ -17,5 +18,12 @@ export const publicRoutes: RouteObject[] = [
   {
     path: "*",
     element: <Navigate to={RoutePath.auth} />,
+  },
+];
+
+export const privateRoutes: RouteObject[] = [
+  {
+    path: RoutePath.main,
+    element: <MainPage />,
   },
 ];

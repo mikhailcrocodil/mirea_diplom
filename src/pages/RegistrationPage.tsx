@@ -1,7 +1,8 @@
 import React from "react";
+import { AuthComponent } from "../components/Auth";
 
 const RegistrationPage = () => {
-  return <div>sasasaa</div>;
+  return <AuthComponent isRegistration={true} />;
 };
 
 export default RegistrationPage;

@@ -62,7 +62,22 @@ export const FormButtonStyled = styled("button")`
   }
 `;
 
+export const LinksStyled = styled("div")`
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 100%;
+`;
+
 export const LinkStyled = styled(NavLink)`
   font-size: 16px;
   color: #fff;
+`;
+
+export const ErrorStyled = styled("span")`
+  color: #ffffff;
+  margin-top: -32px;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
 `;

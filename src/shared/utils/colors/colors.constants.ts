@@ -7,3 +7,8 @@ export const FORM_COLORS = {
   input_placeholder: "#4D4D4D",
   button: "#A71F1F",
 };
+
+export const APP_COLORS = {
+  background: "#fff",
+  mainColor: "#A71F1F",
+};
